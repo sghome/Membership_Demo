@@ -21,7 +21,7 @@ function imgChange() {
 	if(image.src.indexOf('cert.jpg') > -1)
 	image.src='cert.png';
 	else
-	image.src='cert.png';
+	image.src='b.png';
 	image.onload = function(){
 		drawImage()
   };
@@ -46,7 +46,7 @@ nameInput.addEventListener('input', function () {
 
 downloadBtn.addEventListener('click', function () {
 	downloadBtn.href = canvas.toDataURL('image/jpg')
-	downloadBtn.download = 'Certificate - ' + nameInput.value + 'b.png'
+	downloadBtn.download = 'Certificate - ' + nameInput.value + image.src='b.png'
 })
 
 
