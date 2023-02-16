@@ -46,7 +46,7 @@ nameInput.addEventListener('input', function () {
 
 downloadBtn.addEventListener('click', function () {
 	downloadBtn.href = canvas.toDataURL('image/jpg')
-	downloadBtn.download = 'Certificate - ' + nameInput.value
+	downloadBtn.download = 'Certificate - ' + nameInput.value + 'b.png'
 })
 
 
